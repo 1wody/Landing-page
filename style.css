@@ -18,9 +18,96 @@ body {
 
 ul {
     display: flex;
+    font-size: 18px;
 }
 
 a {
     color: white;
     text-decoration: none;
+}
+
+.head {
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}   
+
+#txt .txt1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+#txt .txt2 {
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    margin-top: 12px;
+    padding: 16px;
+    border-radius: 12px;
+    border-color: white;
+}
+
+.midhead {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.txt3 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    margin-top: 30px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: white;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 12px;
+}
+
+.call {
+    font-size: 20px;
+}
+
+.call1 {
+    font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    font-size: 12px;
+
 }
