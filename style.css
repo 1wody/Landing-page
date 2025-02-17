@@ -18,7 +18,7 @@ body {
 
 ul {
     display: flex;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 a {
@@ -69,6 +69,7 @@ button {
     gap: 50px;
     padding-bottom: 50px;
     text-align: center;
+    
 }
 
 .quote {
